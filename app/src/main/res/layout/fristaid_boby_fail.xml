@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@color/backgroundApp"
+    app:theme="@style/AppTheme"
+    tools:context="kku.toolmee.bootcbatong.emsvolunteer.fristAid_boby_fail">
+
+
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="8dp"
+            >
+            <ImageView
+                android:id="@+id/image_fristaidfail"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/fristaidfall"
+                tools:layout_editor_absoluteX="61dp"
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_gravity="center"/>
+
+
+
+            <TextView
+                android:id="@+id/topics1"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textTopicsColor"
+                android:textSize="25dp"
+                android:text="@string/topics_f1"
+                />
+            <TextView
+                android:id="@+id/detail1"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:textSize="20dp"
+                android:text="@string/detal_f1"
+                />
+            <TextView
+                android:id="@+id/topics2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textTopicsColor"
+                android:textSize="25dp"
+                android:text="@string/topics_f2"
+                />
+
+
+            <TextView
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

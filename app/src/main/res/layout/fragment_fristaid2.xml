@@ -1,0 +1,141 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="kku.toolmee.bootcbatong.emsvolunteer.fragment_fristaid2">
+
+    <ScrollView
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="8dp"
+            android:padding="16dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageAed1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/aed1"
+
+               />
+            <ImageView
+                android:id="@+id/imageAed2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/aed2"
+
+                />
+            <ImageView
+                android:id="@+id/imageAed3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/aed3"
+
+                />
+            <ImageView
+                android:id="@+id/imageAed4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/aed4"
+
+                />
+            <ImageView
+                android:id="@+id/imageAed5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/aed5"
+
+                />
+            <ImageView
+                android:id="@+id/imageAed6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/aed6"
+
+                />
+            <ImageView
+                android:id="@+id/imageAed7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/aed7"
+
+                />
+            <ImageView
+                android:id="@+id/imageAed8"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/aed8"
+
+                />
+            <ImageView
+                android:id="@+id/imageAed9"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/aed9"
+
+                />
+            <ImageView
+                android:id="@+id/imageAed10"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/aed10"
+
+                />
+            <TextView
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_marginTop="400dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:layout_marginRight="3dp">
+
+        <Button
+            android:id="@+id/btnAEDToCPR"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/cardiogram"
+
+            />
+
+     <!--  <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabToCPR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           app:backgroundTint="@color/backgrounPrivate"
+            android:layout_marginBottom="@dimen/fab_to_cpr_bottom"
+            android:layout_marginRight="@dimen/fab_to_cpr_right"
+            android:backgroundTintMode="src_over"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:soundEffectsEnabled="false"
+           app:srcCompat="@drawable/cardiogram"
+            app:elevation="12dp"
+            app:fabSize="normal"
+            app:pressedTranslationZ="24dp" /> -->
+
+    </LinearLayout>
+
+</FrameLayout>

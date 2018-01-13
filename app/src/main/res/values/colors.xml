@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42A5F5</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="backgroundApp">#FFFFFF</color>
+    <color name="backgrounPrivate">#42a5f5</color>
+    <color name="backgrounPage">#F5F5F5</color>
+    <color name="textColor">#2196F3</color>
+    <color name="textTopicsColor">#E53935</color>
+    <color name="text">#424242</color>
+    <color name="texthit">#424242</color>
+    <color name="textButton">#FFFFFF</color>
+    <color name="btnToCPR">#EF9A9A</color>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,147 @@
+<resources>
+
+    <string name="title_activity_frist_aid_volunteer">fristAidVolunteer</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_frist_aid">fristAid</string>
+    <string name="tab_text_1">จุดบาดเจ็บ</string>
+    <string name="tab_text_2">CPR</string>
+    <string name="tab_text_3">AED</string>
+    <string name="tab_text_4">หอบหืด</string>
+    <string name="tab_text_5">ชัก</string>
+
+
+    <string name="boby_text1">แผลฉีกขาด</string>
+    <string name="boby_text2">แผลจากน้ำร้อนลวก</string>
+    <string name="boby_text3">วัตถุหักคา</string>
+    <string name="boby_text4">ตกจากที่สูง</string>
+    <string name="boby_text5">อวัยวะถูกตัดขาด</string>
+    <string name="boby_text6">แผบจากสารเคมี</string>
+    <string name="boby_text7">เลือดตกใน</string>
+    <string name="boby_text8">กระดูกหัก</string>
+
+
+    <string name="appName">EMS Volunteer</string>
+
+    //หอบหืด
+    <string name="topics_h1">1.จัดท่าทาง</string>
+    <string name="detal_h1">ให้ผู้ป่วยนั่ง หรือยื่น โม้มตัวไปข้างหน้า หลังและหน้าอกตรง</string>
+    <string name="topics_h2">2. อากาศถ่ายเท</string>
+    <string name="detal_h2">ดยคลายเสื้อผ้าให้หลอม</string>
+    <string name="topics_h3">3.ยา</string>
+    <string name="detal_h3">ถ้าผู้ป่วยมียาพ่น ให้พ่นยาให้กับผู้ป่วย</string>
+    <string name="topics_h4">4.สังเกต</string>
+    <string name="detal_h4">หากอาการไม่ดีขึ้นให้โทร 1669</string>
+
+    //ชัก
+    <string name="topics_t1">1.เรียก 1669</string>
+    <string name="topics_t2">2.ขณะชัก</string>
+    <string name="detal_t2">ประคองใบหน้าให้ตะแคง</string>
+    <string name="topics_t3">3.หลังชัก</string>
+    <string name="detal_t3">จัดให้นอนตะแคงกึ่งคว่ำ</string>
+    <string name="topics_t4">4.ห้าม</string>
+    <string name="detal_t4">ใช้ช้อนหรือสิ่งของงัดปากขณะชัก ไม่ควรยึดตัวขณะชัก</string>
+
+    //บาดเจ็บที่ศีรษะ
+    <string name="topics1">1.ห้ามเลือด</string>
+    <string name="topics2">2.สังเกต</string>
+    <string name="detail1">โดย "วิธีปิดแผลโดยตรง" ถ้าเลือดยังออกเยอะใช้ "ใช้ผ้ายืด พันรัด"</string>
+    <string name="detail2">อาการเปลี่ยนแปลงของสมอง เช่น ซึมลง พูดสับบน ความรู้สึกตัวลดลง ปวดหัวมาก อาเจียน</string>
+
+    //สมองตีบตัน
+    <string name="topics_s1">1.สังเกต</string>
+    <string name="detal_s1">อาการแขนขาอ่อนแรง ชาบริเวณหน้า พูดผิดปกติเช่น ลิ้นคับปาก</string>
+    <string name="topics_s2">2.ตรวจการตอบสนอง</string>
+    <string name="detal_s2">ความรู้สึกตัวลดลง/ไม่รู้สึก และให้นอนตะแคง</string>
+    <string name="topics_s3">3.หากหยุดหายใจ</string>
+    <string name="detal_s3">ทำ CPR ทันที</string>
+
+    //แผลฉีกขาด
+    <string name="topics_k1">1.ห้ามเลือด</string>
+    <string name="detal_k1">ใช้ผ้าสะอาดหรือผ้าก๊อซ พันแผล</string>
+    <string name="topics_k2">2.สังเกตุ</string>
+    <string name="detal_k2">หากเลือดไหลไม่หยุด หรือเพิ่ม ใช้ผ้ายืดพันทับอีกรอบ</string>
+
+    //อวัยวะถูกตัดขาด
+    <string name="topics_y1">1.เก็บอวัยวะที่ถูกตัดขาด </string>
+    <string name="detal_y1">ใส่ถุงพลาสติด รัดปากถุงให้แน่น</string>
+    <string name="topics_y2">2.แช่อวัยวะ</string>
+    <string name="detal_y2">ในภาชนะที่มีน้ำผสมน้ำแข็ง ห้ามแช่ในน้ำแข็งโดยตรง</string>
+    <string name="topics_y3">3.ห้ามเลือด</string>
+    <string name="detal_y3">บริเวณที่ถูกตัดขาด</string>
+
+    //น้ำร้อนลวก
+    <string name="topics_w1">1.ล้างแผล</string>
+    <string name="detal_w1">ด้วยน้ำสะอาด</string>
+    <string name="topics_w2">2.ถอนสิ่งของบนตัว</string>
+    <string name="detal_w2">ที่ถูกเผาไหม้ให้หมด  หากมีการดึงรัดของเสื้อผ้าที่ไหม้ติดผิว ควรหลีกเหลี่ยงส่วนนั้น</string>
+    <string name="topics_w3">3.ห้าม</string>
+    <string name="detal_w3">ใช้โลชั่น ยาสีฟันหรือนาปฏิชีวนะทาบนแผล และเจาะตุ่มพอง</string>
+
+    //สารเคมี
+    <string name="topics_c1">ล้างแผล</string>
+    <string name="detal_c1">ด้วยน้ำสะอาด บริเวณที่ถูกสารเคมี หลายครั้ง เพื่อนลดความเข้มขันของสารเคมี</string>
+
+    //กระดุก
+    <string name="topics_bh1">กรณีไม่มีบาดแผล</string>
+    <string name="topics_b1">1.ประคบเย็น </string>
+    <string name="detal_b1">ด้วยน้ำแข็งบริเวณบวมหรือผิดปกติ</string>
+    <string name="topics_b2">2.ดามกระดูก</string>
+    <string name="detal_b2">ทยึดตรึงส่วนที่หักให้นิ่งที่สุด</string>
+    <string name="topics_bh2">กรณีมีแผลเปิดเห็นกระดูก</string>
+    <string name="topics_b3">1.ห้าม</string>
+    <string name="detal_b3">ดันกระดูกหลับ</string>
+    <string name="topics_b4">2.ทำการปฐมพยาบาล </string>
+    <string name="detal_b4">เหมือนกับแผลจากวัตถุหักคา</string>
+
+    //วัตถุหักคา
+    <string name="topics_d1">1.ห้าม</string>
+    <string name="detal_d1">ดึกวัตถุหักคาออก </string>
+    <string name="topics_d2">2.ยึดวัตถุหักคา </string>
+    <string name="detal_d2">ให้อยู่นิ่งที่สุด</string>
+    <string name="topics_d3">3.ห้ามเลือด</string>
+    <string name="detal_d3">ใช้ผ้าแห้งสะอาดพันหนาๆปิดทับแผลรอบบริเวณวัตถุนั้น</string>
+
+    //เลือดตกใน
+    <string name="topics_i1">1.สังเกตุ</string>
+    <string name="detal_i1"> ผู้ป่วยอาจมีอาการซึม ตัวซีดเย็น เหงื่อออก ชีพจรเบาเร็ว หายใจเร็ว  คลื่นไส้ อาเจียน กระหายน้ำ</string>
+    <string name="topics_i2">2.เรียก 1669</string>
+    <string name="topics_i3">3.จัดท่าทาง </string>
+    <string name="detal_i3">ให้นอนราบ ยกขาสูง คลายเสื้อผ้าให้หลวม ห่มผ้าให้อุ่น</string>
+    <string name="topics_i4">4.ห้าม </string>
+    <string name="detal_i4">ให้อาหารหรือน้ำกับผู้ป่วย</string>
+
+    //ตกจากที่สูง
+    <string name="topics_f1">1.ห้าม</string>
+    <string name="detal_f1">ยกหรือเคลื่อนย้ายผู้ป่วย</string>
+    <string name="topics_f2">2.เรียก 1669</string>
+
+
+    <!-- <string name="logout"> <u>ออกจากระบบ</u>
+    </string> -->
+
+    //alert sat password
+    <string name="title_alert">เตือน</string>
+    <string name="message_alert">กรุณาตรวจสอบ</string>
+
+
+    //ViewProfileSufferer
+    <string name="name_Sufferer">ชื่อ :</string>
+    <string name="lastname_Sufferer">นามสกุล :</string>
+    <string name="phon_Sufferer">เบอร์ :</string>
+    <string name="phamacyLose_Sufferer">แพ้ยา :</string>
+    <string name="ailing_Sufferer">โรคประจำตัว :</string>
+    <string name="phamacy_Sufferer">ปัจจุบันใช้ยา :</string>
+
+    //profile
+    <string name="name">คนดี</string>
+    <string name="lastname">มีสุข</string>
+    <string name="phon">0823333333</string>
+    <string name="phamacyLose">โพรเบเนชิต</string>
+    <string name="ailing">โรคกะเพาะ</string>
+    <string name="phamacy">แอสไพริน</string>
+
+
+
+
+</resources>

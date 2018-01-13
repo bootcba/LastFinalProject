@@ -1,0 +1,129 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+
+    tools:context="kku.toolmee.bootcbatong.emsvolunteer.fragment_fristaid3">
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="8dp"
+            >
+            <ImageView
+                android:id="@+id/image_fristaidasthma"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/fristaidasthma"
+
+                />
+            <TextView
+                android:id="@+id/topics1"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textTopicsColor"
+                android:textSize="25dp"
+                android:text="@string/topics_h1"
+                />
+            <TextView
+                android:id="@+id/detail1"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:textSize="20dp"
+                android:text="@string/detal_h1"
+                />
+            <TextView
+                android:id="@+id/topics2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textTopicsColor"
+                android:textSize="25dp"
+                android:text="@string/topics_h2"
+                />
+            <TextView
+                android:id="@+id/detail2"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:textSize="20dp"
+                android:text="@string/detal_h2"
+                />
+            <TextView
+                android:id="@+id/topicl3"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textTopicsColor"
+                android:textSize="25dp"
+                android:text="@string/topics_h3"
+                />
+            <TextView
+                android:id="@+id/detail3"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:textSize="20dp"
+                android:text="@string/detal_h3"
+                />
+
+            <TextView
+                android:id="@+id/topics4"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textTopicsColor"
+                android:textSize="25dp"
+                android:text="@string/topics_h4"
+                />
+            <TextView
+                android:id="@+id/detail4"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:textSize="20dp"
+                android:text="@string/detal_h4"
+                />
+            <TextView
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</FrameLayout>

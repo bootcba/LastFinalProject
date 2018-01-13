@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kku.toolmee.bootcbatong.emsvolunteer">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/appName"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".authentication" />
+        <activity
+            android:name=".menuVolunteer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".profileVolunteer" />
+        <activity android:name=".setPassword" />
+        <activity android:name=".alertEmergency" />
+        <activity
+            android:name=".fristAid"
+            android:label="@string/title_activity_frist_aid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".fristAid_manuBoby" />
+        <activity android:name=".fristAid_brain" />
+        <activity android:name=".fristAid_head" />
+        <activity android:name=".CPR" />
+        <activity android:name=".detail_alertEmergency" />
+        <activity android:name=".fristAid_boby_torn" />
+        <activity android:name=".fristAid_boby_scald" />
+        <activity android:name=".fristAid_boby_stab" />
+        <activity android:name=".fristAid_boby_fail" />
+        <activity android:name=".fristAid_boby_organ" />
+        <activity android:name=".fristAid_boby_chemical" />
+        <activity android:name=".fristAid_boby_blood" />
+        <activity android:name=".fristAid_boby_bone" />
+        <activity android:name=".show_profileSufferer"></activity>
+        <activity android:name=".HomescreenAgreement"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Emergency"/>
+        <activity android:name=".Callemergency"/>
+        <activity android:name=".CallAmbulance"/>
+        <activity android:name=".Datapeople"/>
+        <activity android:name=".CprAid"/>
+    </application>
+
+</manifest>

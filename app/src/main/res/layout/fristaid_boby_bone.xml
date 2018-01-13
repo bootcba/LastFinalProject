@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@color/backgroundApp"
+    app:theme="@style/AppTheme"
+    tools:context="kku.toolmee.bootcbatong.emsvolunteer.fristAid_boby_bone">
+
+
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="8dp"
+
+            >
+            <ImageView
+                android:id="@+id/image_fristaidbone"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/fristaidbone"
+                tools:layout_editor_absoluteX="91dp"
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="25dp"
+                android:text="@string/topics_bh1"
+                />
+
+
+
+            <TextView
+                android:id="@+id/topics1"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textTopicsColor"
+                android:textSize="25dp"
+                android:text="@string/topics_b1"
+                />
+            <TextView
+                android:id="@+id/detail1"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:textSize="20dp"
+                android:text="@string/detal_b1"
+                />
+            <TextView
+                android:id="@+id/topics2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textTopicsColor"
+                android:textSize="25dp"
+                android:text="@string/topics_b2"
+                />
+            <TextView
+                android:id="@+id/detail2"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:textSize="20dp"
+                android:text="@string/detal_b2"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="25dp"
+                android:text="@string/topics_bh1"
+                />
+            <TextView
+                android:id="@+id/topics3"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textTopicsColor"
+                android:textSize="25dp"
+                android:text="@string/topics_b3"
+                />
+            <TextView
+                android:id="@+id/detail3"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:textSize="20dp"
+                android:text="@string/detal_b3"
+                />
+            <TextView
+                android:id="@+id/topics4"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textTopicsColor"
+                android:textSize="25dp"
+                android:text="@string/topics_b4"
+                />
+            <TextView
+                android:id="@+id/detail4"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text"
+                android:textSize="20dp"
+                android:text="@string/detal_b4"
+                />
+            <TextView
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@color/backgrounPrivate"
+    tools:context="kku.toolmee.bootcbatong.emsvolunteer.menuVolunteer">
+
+    <LinearLayout
+        android:layout_width="314dp"
+        android:layout_height="551dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <ImageButton
+            android:id="@+id/logout"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/logout"
+
+            />
+
+
+        <!--  <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="right"
+             android:layout_marginTop="10dp"
+             android:text="ออกจากระบบ"
+             android:textColor="#fff"
+             android:textSize="15dp"
+             />  -->
+
+
+        <ImageButton
+            android:id="@+id/alert"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/alert"
+
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="แจ้งเตือนจุดเกิดเหตุ"
+            android:textColor="#fff"
+            android:textSize="15dp"
+
+            />
+
+
+        <view
+            android:id="@+id/view1"
+            class="android.support.v4.widget.Space"
+
+            layout_width="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="50dp"
+            android:background="#fff" />
+
+
+        <ImageButton
+            android:id="@+id/cpr"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/heart"
+
+            />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="CPR"
+            android:textColor="#fff"
+            android:textSize="15dp"
+
+            />
+
+        <view
+            android:id="@+id/view2"
+            class="android.support.v4.widget.Space"
+
+            layout_width="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="50dp"
+            android:background="#fff" />
+
+
+        <ImageButton
+            android:id="@+id/fristAid"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/book"
+
+            />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="คู่มือปฐมพยาบาล"
+            android:textColor="#fff"
+            android:textSize="15dp"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
